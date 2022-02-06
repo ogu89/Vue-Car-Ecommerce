@@ -1,8 +1,4 @@
-<template>
-  <CarECommerce></CarECommerce>
-</template>
-
-<script>
+<script setup lang="js">
 import CarECommerce from './components/CarECommerce.vue'
 
 export default {
@@ -12,6 +8,11 @@ export default {
   }
 }
 </script>
+
+<template>
+  <CarECommerce></CarECommerce>
+</template>
+
 
 <style>
 #app {
