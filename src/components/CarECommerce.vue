@@ -184,7 +184,7 @@ let sorted = ref("Sort by");
 const categoryFilteringAndSorting = computed(() => {
   // let temp = filtering(items);
   // return sorting(temp);
-  return sorting(filtering(items));
+  return filtering(sorting(items));
 
 });
 
